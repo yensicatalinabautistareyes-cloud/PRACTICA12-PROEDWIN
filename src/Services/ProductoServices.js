@@ -1,4 +1,4 @@
-const URL_API = "http://localhost:3000/api/products";
+const URL_API = "https://dummyjson.com/products";
 
  export async function ObtenerProductos() {
     const reponse = await fetch(URL_API);

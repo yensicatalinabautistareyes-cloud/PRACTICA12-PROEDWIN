@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Conometro from './Componentes/Cronometro'
 import CatalogoProductos from './Componentes/CatalogoProductos'
+import CardProductos from './Componentes/CardsProductos'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +12,8 @@ function App() {
       <Conometro />
       <Conometro />
       <CatalogoProductos />
+      <CardProductos />
+      
     </>
   )
 }
